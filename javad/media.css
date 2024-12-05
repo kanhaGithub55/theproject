@@ -1,0 +1,57 @@
+@media (max-width : 768px) {
+  .five {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0px;
+    /* border: 10px solid red; */
+
+  }
+
+  .metting-image img {
+    border-radius: 12px;
+    width: 335px;
+    display: flex;
+    margin-inline: auto;
+  }
+
+  /* ------- six  -------- */
+
+  .multiple-card {
+    padding: 20px 0px;
+    /* border: 10px solid red; */
+  }
+
+  .multiple-card .heading-two {
+    padding: 20px;
+    text-align: start;
+  }
+
+  .multiple-card .heading-two p {
+    text-align: start;
+  }
+
+  .multiple-card .card-container {
+    flex-direction: column;
+    /* justify-content: start; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 40px 0px;
+    gap: 20px;
+  }
+
+  .multiple-card .card-container .card {
+    width: 90%;
+    height: 140px;
+    padding: 20px 40px;
+  }
+
+  .multiple-card .card-container .fives {
+    height: 100px;
+  }
+
+  .multiple-card #learn-button {
+    padding: 15px 20px;
+  }
+
+}

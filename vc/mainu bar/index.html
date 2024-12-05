@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insperity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="first">
+    <div class="cont">
+
+      <nav>
+        <div class="logo-box">
+          <div class="logo">Insperity</div>
+          <div class="hamb">☰</div>
+        </div>
+        <ul>
+          <li><a href="#">HR Solution</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Who We Server</a></li>
+          <li><a href="#">Customer Services</a></li>
+          <li><a href="">Contact&nbspSales</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('#first .hamb').addEventListener('click', function () {
+      const menu = document.querySelector('#first ul');
+      menu.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

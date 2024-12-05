@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/*------------------------------ Five --------------------------*/
+
+.five {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.reason-para {
+  padding: 20px 30px;
+}
+
+
+.reason-para h1 {
+  /* width: 325px; */
+  font-size: 36px;
+}
+
+.reason-para p {
+  /* width: 350px; */
+  padding-top: 20px;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+.metting-image img {
+  border-radius: 12px;
+  width: 550px;
+}
+
+.five .reason-para .watch {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 6px;
+  /* border: 1px solid red; */
+}
+
+.five .reason-para .watch img {
+  width: 40px;
+}
+
+#button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  border: none;
+}
+
+/*--------------- Six --------------------------*/
+
+.multiple-card {
+  padding: 50px 0px;
+}
+
+.multiple-card .heading-two {
+  padding: 40px 150px;
+  text-align: center;
+}
+
+.multiple-card .heading-two h1 {
+  font-size: 40px;
+}
+
+.multiple-card .heading-two p {
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+.multiple-card .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+  gap: 20px;
+}
+
+.multiple-card .card-container .card {
+  width: 220px;
+  height: 120px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.multiple-card .card-container .card h1 {
+  color: white;
+  font-size: 28px;
+}
+
+.multiple-card .card-container .card p {
+  /* width: 175px; */
+  padding: 5px 10px;
+  /* border: 1px solid red; */
+  text-align: center;
+  color: white;
+
+}
+
+.multiple-card .card-container .card p h1 {
+  color: white;
+}
+
+.multiple-card .card-container .first {
+  background-color: rgb(248, 161, 47);
+}
+
+.multiple-card .card-container .second {
+  background-color: rgb(102, 198, 236);
+}
+
+.multiple-card .card-container .second span {
+  background: white;
+  color: skyblue;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.multiple-card .card-container .third {
+  background-color: rgb(243, 55, 55);
+}
+
+.multiple-card .card-container .four {
+  background-color: rgb(250, 89, 31);
+}
+
+.multiple-card .card-container .fives {
+  height: 100px;
+  background-color: rgb(52, 52, 247);
+  padding: 25px;
+}
+
+.multiple-card #learn-button {
+  padding: 16px 35px;
+  background: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  margin-inline: auto;
+}
